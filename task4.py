@@ -50,6 +50,7 @@ def split_vector(signature,b):
 
 def probability(s, r, b):
     return 1-(1 - s**r)**b
+
 a = shingle(a, k)
 b = shingle(b, k)
 c = shingle(c, k)
